@@ -5,10 +5,12 @@
 
 <script>
 import { defineAsyncComponent } from 'vue'
+
+
 export default {
   name: 'App',
   components: {
-    Counter: defineAsyncComponent( () => import('./components/Counter.vue') )
+    Counter: defineAsyncComponent( () => import('@/components/Counter.vue') )
   }
 }
 </script>
